@@ -1,0 +1,72 @@
+/**
+ * User resets
+ */
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:focus {
+	outline: 0;
+}
+
+/**
+ * Base settings
+ */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+	line-height: 1.4em;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Main Section
+ */
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/**
+ * Header Section
+ */
+.header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.header__list {
+  display: flex;
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+.header__list-item {
+  align-self: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.header__item-link {
+  text-decoration: none;
+}
+
+/**
+ * Footer Section
+ */
+ .footer {
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: center;
+  padding: 30px;
+}
