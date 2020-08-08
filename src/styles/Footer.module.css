@@ -1,0 +1,58 @@
+/**
+ * Footer Section
+ */
+ .footer {
+  background: var(--footer-color);
+  color: white;
+  font-size: 12px;
+  padding: 30px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.footerContent_company {
+  width: 50%;
+}
+
+.footerContent_companyName {
+  font-size: 20px;
+}
+
+.footerContent_companyDescription {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: var(--base-color);
+}
+
+.footerContent_companyAddress {
+  color: var(--base-color);
+}
+
+.footerContent_links,
+.footerContent_socialMediaLinks {
+  width: 25%;
+}
+
+.footerContent_linksTitle,
+.footerContent_socialMediaTitle {
+  padding-bottom: 20px;
+}
+
+.footerContent_link,
+.footerContent_socialMediaLink {
+  display: block;
+  text-decoration: none;
+  color: var(--base-color);
+}
+
+.footerCopyright {
+  border-top: 1px solid var(--base-color-dark);
+  padding-top: 20px;
+  font-size: 10px;
+  color: var(--base-color);
+  letter-spacing: 1px;
+}

@@ -1,0 +1,33 @@
+/**
+ * Header Section
+ */
+ .header {
+  background: var(--base-color);
+}
+
+.header_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_title {
+  -webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  padding: 40px 20px;
+}
+
+.header_list {
+  display: flex;
+  list-style-type: none;
+}
+
+.header_listItem {
+  align-self: center;
+  padding: 20px 30px;
+}
+
+.header_itemLink {
+  text-decoration: none;
+  color: var(--base-color-dark);
+}

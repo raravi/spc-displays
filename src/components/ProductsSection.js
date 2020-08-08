@@ -1,12 +1,13 @@
 import React from 'react';
 
-export const ProductsSection = (props) => {
-  return (
-    <section>
-      <p>
-      {`Products page`}<br />
-      {`Content goes here!`}
-      </p>
-    </section>
-  )
-}
+export const ProductsSection = () => (
+  <section>
+    <p>
+      Products page
+      <br />
+      Content goes here!
+    </p>
+  </section>
+);
+
+export default ProductsSection;
