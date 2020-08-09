@@ -15,10 +15,10 @@ const MainSection = () => {
             <div className={styles.topSectionLeft}>
               <div className={styles.topSectionLeft_box}>
                 <p className={styles.topSectionLeft_textSmall}>Smart People&apos;s Choice</p>
-                <h2 className={styles.topSectionLeft_header}>Teach Smarter</h2>
+                <h2 className={styles.topSectionLeft_header}>Teach better, not slower</h2>
                 <p className={styles.topSectionLeft_text}>
                   As educators, we need visual aids to make learning
-                  interactive and fun for the students.
+                  interactive and fun for the students. Interact with ideas, understand them better.
                 </p>
                 <button type="button" className={styles.topSectionLeft_button} onClick={onClick}>Products</button>
               </div>
@@ -37,7 +37,11 @@ const MainSection = () => {
             </div>
             <div className={styles.middleSectionRight}>
               <div className={styles.middleSectionRight_box}>
-                <h2 className={styles.middleSectionRight_header}>Learn Faster</h2>
+                <h2 className={styles.middleSectionRight_header}>
+                  Learn faster,
+                  <br />
+                  not harder
+                </h2>
                 <p className={styles.middleSectionRight_text}>
                   Students are always running short of time. A ton of things
                   to understand, and they have to imagine how it all works.
@@ -70,7 +74,7 @@ const MainSection = () => {
           <div className={styles.bottomSection_box}>
             <div className={styles.bottomSectionLeft}>
               <div className={styles.bottomSectionLeft_box}>
-                <h2 className={styles.bottomSectionLeft_header}>Work Better</h2>
+                <h2 className={styles.bottomSectionLeft_header}>Work smarter, not longer</h2>
                 <p className={styles.bottomSectionLeft_text}>
                   Collaborate with your team, think together with your clients.
                   It doesn&apos;t matter if they&apos;re halfway around the world.

@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Baloo+Tamma+2:wght@400;500;600&family=Pacifico&display=swap');
+
 /**
  * CSS Custom Variables
  */
  :root {
   --base-color: #c0e9ed;
   --base-color-dark: #113b51;
+  --button-color: hsl(203, 82%, 59%);
+  --button-color: hsl(203, 100%, 49%);
+  --grey-text-color: hsl(0, 0%, 40%);
   --footer-color: #082534;
   --product-color: #c0dfed;
  }
@@ -25,11 +30,12 @@
  * Base settings
  */
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
   color: var(--base-color-dark);
 	line-height: 1.4em;
-  font-weight: 300;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
