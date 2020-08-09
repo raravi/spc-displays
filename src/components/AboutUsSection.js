@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/AboutUsSection.module.css';
+import siteConfig from '../config';
 
 const AboutUsSection = () => (
   <>
@@ -23,7 +24,7 @@ const AboutUsSection = () => (
           at your home. SPC is all about simplicity, our user-friendly
           displays will ensure that you can use it however you want to.
         </p>
-        <a type="button" className={styles.aboutSection_button} href="mailto:">Get in Touch</a>
+        <a type="button" className={styles.aboutSection_button} href={`mailto:${siteConfig.email}`}>Get in Touch</a>
       </section>
     </div>
   </>
