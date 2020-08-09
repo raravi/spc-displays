@@ -14,11 +14,11 @@ const MainSection = () => {
           <div className={styles.topSection_box}>
             <div className={styles.topSectionLeft}>
               <div className={styles.topSectionLeft_box}>
-                <p className={styles.topSectionLeft_textSmall}>Small text here</p>
-                <h2 className={styles.topSectionLeft_header}>A heading wall here</h2>
+                <p className={styles.topSectionLeft_textSmall}>Smart People&apos;s Choice</p>
+                <h2 className={styles.topSectionLeft_header}>Teach Smarter</h2>
                 <p className={styles.topSectionLeft_text}>
-                  A bunch of text here, I have no idea what its going to be.
-                  So lets have it.
+                  As educators, we need visual aids to make learning
+                  interactive and fun for the students.
                 </p>
                 <button type="button" className={styles.topSectionLeft_button} onClick={onClick}>Products</button>
               </div>
@@ -37,12 +37,11 @@ const MainSection = () => {
             </div>
             <div className={styles.middleSectionRight}>
               <div className={styles.middleSectionRight_box}>
-                <h2 className={styles.middleSectionRight_header}>A heading wall here</h2>
+                <h2 className={styles.middleSectionRight_header}>Learn Faster</h2>
                 <p className={styles.middleSectionRight_text}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Students are always running short of time. A ton of things
+                  to understand, and they have to imagine how it all works.
+                  Why not make it easier for them to learn new things?!
                 </p>
                 <button type="button" className={styles.middleSectionRight_button} onClick={onClick}>Products</button>
               </div>
@@ -51,12 +50,12 @@ const MainSection = () => {
           <div className={styles.middleSection_box2}>
             <div className={styles.middleSectionLeft2}>
               <div className={styles.middleSectionLeft2_box}>
-                <h2 className={styles.middleSectionLeft2_header}>A heading wall here</h2>
+                <h2 className={styles.middleSectionLeft2_header}>Visual learning is the key!</h2>
                 <p className={styles.middleSectionLeft2_text}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Research has proven that students remember information
+                  better and can better recall it when it is represented
+                  and learned both visually and verbally. It improves
+                  retention, comprehension, and critical thinking.
                 </p>
               </div>
             </div>
@@ -71,12 +70,10 @@ const MainSection = () => {
           <div className={styles.bottomSection_box}>
             <div className={styles.bottomSectionLeft}>
               <div className={styles.bottomSectionLeft_box}>
-                <h2 className={styles.bottomSectionLeft_header}>A heading wall here</h2>
+                <h2 className={styles.bottomSectionLeft_header}>Work Better</h2>
                 <p className={styles.bottomSectionLeft_text}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Collaborate with your team, think together with your clients.
+                  It doesn&apos;t matter if they&apos;re halfway around the world.
                 </p>
                 <button type="button" className={styles.bottomSectionLeft_button} onClick={onClick}>Products</button>
               </div>
