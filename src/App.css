@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Baloo+Tamma+2:wght@400;500;600&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Baloo+Tamma+2:wght@400;500;600&family=Pacifico&family=Lato&display=swap');
 
 /**
  * CSS Custom Variables
@@ -9,6 +9,7 @@
   --button-color: hsl(203, 82%, 59%);
   --button-color: hsl(203, 100%, 49%);
   --grey-text-color: hsl(0, 0%, 40%);
+  --line-color: hsl(0, 0%, 93%);
   --footer-color: #082534;
   --product-color: #c0dfed;
  }
