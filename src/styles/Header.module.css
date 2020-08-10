@@ -18,13 +18,12 @@
 }
 
 .header_titleShort {
-  /* padding: 0 20px 40px; */
+  padding-bottom: 10px;
 }
 
 .header_titleFull {
   color: var(--button-color);
   font-size: 12px;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
