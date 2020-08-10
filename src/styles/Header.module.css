@@ -14,7 +14,18 @@
   -webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
-  padding: 40px 20px;
+  padding: 30px 20px 0;
+}
+
+.header_titleShort {
+  /* padding: 0 20px 40px; */
+}
+
+.header_titleFull {
+  color: var(--button-color);
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header_list {

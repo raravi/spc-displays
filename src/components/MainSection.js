@@ -14,7 +14,6 @@ const MainSection = () => {
           <div className={styles.topSection_box}>
             <div className={styles.topSectionLeft}>
               <div className={styles.topSectionLeft_box}>
-                <p className={styles.topSectionLeft_textSmall}>Smart People&apos;s Choice</p>
                 <h2 className={styles.topSectionLeft_header}>Teach better, not slower</h2>
                 <p className={styles.topSectionLeft_text}>
                   As educators, we need visual aids to make learning
